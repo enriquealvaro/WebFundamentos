@@ -190,6 +190,70 @@ main {
   }
 /*
 =============== 
+Contacto
+===============
+*/
+.banner-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.card-container{
+  display: grid;
+  grid-template-columns: 420px 420px;
+  margin-top: 15vh;
+  margin-bottom: 20vh;
+}
+ .card-img{
+padding-left: 100px; 
+padding-top: 30px;
+}
+.banner-2 h2{
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+}
+.card-content{
+  background: #fff;
+  height: 370px;
+}
+.card-content h3{
+  text-align: center;
+  color: #000;
+  padding: 25px 0 10px 0;
+  font-size: 26px;
+  font-weight: 500;
+}
+.form-row{
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+form select, form input{
+  display: block;
+  width: 100%;
+  margin: 15px 12px;
+  padding: 5px;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #eee;
+  font-weight: 300;
+  color: #000;
+}
+.fotome2{
+  width: 260px;
+}
+#contact{
+  height: 75vh;
+}
+
+
+
+/*
+=============== 
   Footer
 ===============
 */
@@ -213,7 +277,7 @@ footer {
 */
 
 .fotome{
-  width: 230px;
+  width: 280px;
 }
 .column1 {
   background-image: url('../Images/cmd2.png');
