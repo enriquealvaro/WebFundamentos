@@ -300,3 +300,27 @@ footer {
   margin-top: 24px;
   margin-bottom: 5px;
 }
+
+
+#elbicho{
+  height: 200vh;
+}
+
+.texto-t{
+  padding-bottom: 50px;
+}
+.text-temas{
+  color: rgb(0, 0, 0);
+  padding-left: 2%;
+  padding-right: 2%;
+  height: 270px;
+  position: relative;
+  margin-top: 24px;
+  margin-bottom: 5px;
+}
+.fotobicho{
+  width: 90%; /* Ancho del 100% del div contenedor */
+    height: 90%; /* Altura del 100% del div contenedor */
+    object-fit: cover;
+}
+
