@@ -319,8 +319,55 @@ footer {
   margin-bottom: 5px;
 }
 .fotobicho{
-  width: 90%; /* Ancho del 100% del div contenedor */
-    height: 90%; /* Altura del 100% del div contenedor */
+  width: 90%; 
+    height: 90%; 
     object-fit: cover;
 }
 
+.redes{
+font-size: 40px;
+color: var(--clr-black);
+font-family: var(--ff-primary);
+padding-top: 100px;
+padding-left: 50px;
+}
+
+.title-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--clr-primary-5);
+}
+.links-3{
+  padding-left: 0px;
+  color: var(--clr-black);
+}
+
+#fundamentos{
+  height: 100vh;
+}
+.card-container-2{
+  display: grid;
+  grid-template-columns: 500px 500px;
+  margin-bottom: 20vh;
+}
+.boton-descarga {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.boton-descarga:hover {
+  background-color: #2980b9;
+}
+.fotobicho-3{
+  width: 90%; 
+    height: 90%; 
+    object-fit: cover;
+    padding-right: 100px;
+}
